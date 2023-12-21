@@ -98,6 +98,13 @@ public class JUnit_Tester {
         // Vergleich der sortierten Arrays
         assertArrayEquals(copyOfArray, array);
     }
+    
+    @Test
+    public void testWithTest()
+    {
+        int test_halt_nh = 0;
+        System.out.println(test_halt_nh);
+    }
 
         // Optional: Test for inefficiency
         // This test would require measuring the time taken or counting the operations
